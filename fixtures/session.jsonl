@@ -1,0 +1,4 @@
+{"timestamp":"2026-01-15T09:00:00Z","message":{"role":"user","content":"Our synthetic account-switching test fails when two browser contexts share a saved session."}}
+{"timestamp":"2026-01-15T09:01:00Z","message":{"role":"assistant","content":[{"type":"text","text":"The example needs session isolation: use a separate authentication state for each test role."},{"type":"tool_use","name":"synthetic_browser","input":{"note":"This entire demonstration payload should be omitted."}},{"type":"thinking","thinking":"Synthetic block excluded from exported content."}]}}
+{"timestamp":"2026-01-15T09:02:00Z","message":{"role":"user","content":"Demo-only placeholder: PASSWORD=not-a-real-credential. Record the observed behavior and how to retest it."}}
+{"timestamp":"2026-01-15T09:03:00Z","message":{"role":"assistant","content":"Draft a reusable lesson with evidence and a limitation: this fixture does not prove how any real application behaves."}}
